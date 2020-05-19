@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Register
+        </title>
+        <link rel="stylesheet" sytyle="text/css" href="style.css">
+<style>
+    .c{
+     margin-left: 200px;
+    margin-top: 150px;
+    margin-right: 150px;
+    padding:8px 30px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    width:150px;
+    border-radius:20px; 
+
+    }
+    .d{
+        margin-left: 250px;
+    margin-top: 30px;
+    margin-right: 150px;
+    padding:8px 30px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    width:150px;
+    border-radius:20px; 
+    }
+</style>
+
+    </head>
+    <body class="body">
+    <div class="head">
+        <img src="logo.png" width="200px" height="70">
+        
+   
+        <nav class="van">
+<ul>
+  <li><a href="index.html">Home</a></li>
+   <li><a href="about.html">About</a></li>
+  <li><a href="http://localhost/dashboard/ARTEXPO/display.php">Artists</a></li>
+   <li style="margin-right:25px"><a href="pieces.html">ArtPieces</a></li>
+ <li style="margin-right:25px"><a href="http://localhost/dashboard/ARTEXPO/login.html">Artistlogin</a></li>
+ 
+ 
+ 
+   
+ 
+ 
+</ul>
+        
+ </div>
+     
+      
+        
+        <div class="reg2" >
+    <form action="register.php" method="POST">
+        <div class="reg">
+        <p>ARTIST DETAILS</p>
+        <div class="form-group">
+            <label for="Name">Full name:</label><br>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <div class="form-group">
+                <label for="email">Email address:</label><br>
+                <input type="email" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label for="number">Number:</label><br>
+            <input type="text" class="form-control" name="number" min="0" max="10">
+          </div>
+          <div class="form-group">
+            <label for="idnumber"> ID Number:</label><br>
+            <input type="text" class="form-control" name="idnumber" min="7" max="7">
+          </div>
+          <div class="form-group">
+            <label for="username"> Username:</label><br>
+            <input type="text" class="form-control" name="username">
+          </div>
+          <div class="form-group">
+            <label for="password"> Password:</label><br>
+            <input type="password" class="form-control" name="password" max="8">
+            
+          </div>
+          
+    </div>
+    <button type="submit" name="submit" class="btn btn-default">REGISTER</button>
+  
+                       
+    </form> 
+</div>   
+
+    </body>
+</html>
